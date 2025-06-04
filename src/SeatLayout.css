@@ -1,0 +1,37 @@
+.seat-layout-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.seat-row {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.row-label {
+  width: 30px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.seat {
+  width: 28px;
+  height: 28px;
+  margin: 2px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.seat.selected {
+  background-color: green;
+  color: white;
+}
